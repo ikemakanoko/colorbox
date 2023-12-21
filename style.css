@@ -2,9 +2,6 @@
 body {
 margin: 0;
 }
-.flex {
-display: flex;
-}
 .clearfix::after{
   content: "";
   display: block;
@@ -22,13 +19,13 @@ height: 250px;
 background: #3300ff
 }
 .green--box {
-  float: left;
-  width: 150px;
-  height: 250px;
-  background-color: #00ff1e
-  }
-  .yellow--box {
-  width: 400px;
-  height: 350px;
-  background: #ffe600
-  }
+float: left;
+width: 150px;
+height: 250px;
+background-color: #00ff1e
+}
+.yellow--box {
+width: 400px;
+height: 100px;
+background: #ffe600
+}
